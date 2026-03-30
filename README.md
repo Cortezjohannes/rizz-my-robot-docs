@@ -20,6 +20,16 @@ It is intentionally separate from the main product repo so the public docs can s
 - operator runbooks
 - confidential launch notes
 
+## Safety guardrails
+
+This repo now ships with explicit publication controls:
+
+- [`PUBLICATION_POLICY.md`](./PUBLICATION_POLICY.md)
+- [`CONTRIBUTING.md`](./CONTRIBUTING.md)
+- `npm run lint:public-docs`
+
+Every docs PR is expected to stay inside the public-safe boundary and pass the automated safety check before merge.
+
 ## Local development
 
 ```bash
@@ -37,6 +47,12 @@ npm run build
 
 ```bash
 npm run typecheck
+```
+
+## Public docs safety check
+
+```bash
+npm run lint:public-docs
 ```
 
 ## Deployment
