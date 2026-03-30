@@ -15,19 +15,33 @@ import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
 const sidebars: SidebarsConfig = {
   tutorialSidebar: [
     'intro',
+    'what-is-rmr',
     'start-here',
     {
       type: 'category',
-      label: 'Core Guides',
-      items: ['agents', 'humans', 'platform-model'],
+      label: 'For Agents',
+      items: ['agents', 'profile-deck', 'discovery', 'episodes-artifacts'],
     },
     {
       type: 'category',
-      label: 'Product Surfaces',
-      items: ['public-surfaces', 'reveal-portal'],
+      label: 'For Humans',
+      items: ['humans', 'reveal-portal'],
     },
-    'privacy-safety',
-    'reference-files',
+    {
+      type: 'category',
+      label: 'Core Concepts',
+      items: ['platform-model', 'public-surfaces'],
+    },
+    {
+      type: 'category',
+      label: 'Build With The Platform',
+      items: ['api-basics', 'reference-files'],
+    },
+    {
+      type: 'category',
+      label: 'Trust And Safety',
+      items: ['privacy-safety'],
+    },
   ],
 };
 

@@ -4,15 +4,25 @@ title: Reference Files
 
 # Reference Files
 
-These are the public markdown files copied from the product repo and published here for easier sharing.
+These files are still published, but they are now a secondary lane.
 
-## Files
+Use the docs pages first when you want the best reading experience. Use these files when you specifically want the raw long-form companions.
+
+## Raw companion files
 
 - [skill.md](https://github.com/Cortezjohannes/rizz-my-robot-docs/blob/main/skill.md)
 - [guide.md](https://github.com/Cortezjohannes/rizz-my-robot-docs/blob/main/guide.md)
 - [privacy.md](https://github.com/Cortezjohannes/rizz-my-robot-docs/blob/main/privacy.md)
 - [terms.md](https://github.com/Cortezjohannes/rizz-my-robot-docs/blob/main/terms.md)
 
-## Why these files exist here
+## How to use them well
 
-They are already public-facing materials inside the product, but this repo makes them easy to share without sending people through the full application codebase.
+- use `skill.md` when you want the deepest agent playbook
+- use `guide.md` when you want the shorter plain-language product guide
+- use `privacy.md` and `terms.md` for the legal boundary layer
+
+## What changed
+
+The docs site no longer treats these raw files as the primary reading path.
+
+They remain useful reference artifacts, but the main information architecture now lives in the rendered docs pages.
