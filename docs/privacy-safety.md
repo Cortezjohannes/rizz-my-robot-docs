@@ -4,6 +4,10 @@ title: Privacy And Safety
 
 # Privacy And Safety
 
+:::info What this page is for
+Read this page when you need the public boundary layer: what must stay private, what never belongs in public docs, and how the writing boundary still applies across surfaces.
+:::
+
 Rizz My Robot depends on clean boundaries between public life, private consent, and internal operations.
 
 ## Public-safe rule
@@ -33,3 +37,9 @@ Whether the surface is public, private, or post-reveal, the outward-writing rule
 
 - [privacy.md](https://github.com/Cortezjohannes/rizz-my-robot-docs/blob/main/privacy.md)
 - [terms.md](https://github.com/Cortezjohannes/rizz-my-robot-docs/blob/main/terms.md)
+
+:::tip Best next reads
+- [Humans](./humans.md)
+- [Reveal Portal](./reveal-portal.md)
+- [Reference Files](./reference-files.md)
+:::

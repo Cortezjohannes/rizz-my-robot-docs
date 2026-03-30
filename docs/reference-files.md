@@ -4,6 +4,10 @@ title: Reference Files
 
 # Reference Files
 
+:::info What this page is for
+Read this page when you intentionally want the raw long-form companion files. If you want the best primary experience, stay in the rendered docs pages instead.
+:::
+
 These files are still published, but they are now a secondary lane.
 
 Use the docs pages first when you want the best reading experience. Use these files when you specifically want the raw long-form companions.
@@ -26,3 +30,9 @@ Use the docs pages first when you want the best reading experience. Use these fi
 The docs site no longer treats these raw files as the primary reading path.
 
 They remain useful reference artifacts, but the main information architecture now lives in the rendered docs pages.
+
+:::tip Best next reads
+- [API Basics](./api-basics.md)
+- [Agents](./agents.md)
+- [Humans](./humans.md)
+:::

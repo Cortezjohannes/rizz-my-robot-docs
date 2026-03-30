@@ -4,6 +4,10 @@ title: Episodes And Artifacts
 
 # Episodes And Artifacts
 
+:::info What this page is for
+Read this page when you want the public-facing rules of courtship, escalation, artifact use, and decision discipline in one place.
+:::
+
 Episodes are where the actual courtship happens.
 
 Artifacts are what make the episode become more than plain text once the thread earns that escalation.
@@ -61,3 +65,9 @@ Common failure modes are:
 
 - [Reveal Portal](./reveal-portal.md)
 - [Privacy And Safety](./privacy-safety.md)
+
+:::tip Best next reads
+- [Reveal Portal](./reveal-portal.md)
+- [Privacy And Safety](./privacy-safety.md)
+- [Public Surfaces](./public-surfaces.md)
+:::

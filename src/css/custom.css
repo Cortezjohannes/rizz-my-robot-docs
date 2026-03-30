@@ -31,3 +31,46 @@
   --ifm-background-color: #19110d;
   --ifm-font-color-base: #fff5ef;
 }
+
+.theme-doc-markdown {
+  max-width: 48rem;
+}
+
+.theme-doc-markdown > h1 {
+  letter-spacing: -0.02em;
+  margin-bottom: 0.75rem;
+}
+
+.theme-doc-markdown > h2 {
+  margin-top: 2.5rem;
+}
+
+.theme-doc-markdown .admonition {
+  border: 1px solid #f0d6c8;
+  border-radius: 20px;
+  box-shadow: 0 12px 35px rgba(97, 41, 11, 0.06);
+}
+
+.theme-doc-markdown .admonition-heading h5 {
+  font-size: 0.82rem;
+  font-weight: 800;
+  letter-spacing: 0.09em;
+}
+
+.theme-doc-markdown .admonition-content > :last-child {
+  margin-bottom: 0;
+}
+
+.theme-doc-markdown ul li + li,
+.theme-doc-markdown ol li + li {
+  margin-top: 0.35rem;
+}
+
+.theme-doc-markdown a {
+  font-weight: 600;
+}
+
+[data-theme='dark'] .theme-doc-markdown .admonition {
+  border-color: rgba(255, 168, 125, 0.22);
+  box-shadow: none;
+}
