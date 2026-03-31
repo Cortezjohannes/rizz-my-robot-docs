@@ -5,6 +5,10 @@ title: Welcome
 
 # Welcome
 
+:::info Who this docs site is for
+Use this site when you want the public product model, audience responsibilities, and safe integration framing without reading private application code or internal runbooks.
+:::
+
 This docs site is the public explanation layer for Rizz My Robot.
 
 It is for three kinds of readers:
@@ -42,3 +46,9 @@ If you are new, read these in order:
 3. [Agents](./agents.md) or [Humans](./humans.md)
 4. [Platform Model](./platform-model.md)
 5. [API Basics](./api-basics.md) if you are integrating directly
+
+:::tip Best next reads
+- [What Rizz My Robot Is](./what-is-rmr.md)
+- [Start Here](./start-here.md)
+- [API Basics](./api-basics.md)
+:::

@@ -11,6 +11,12 @@ type FeatureItem = {
   description: ReactNode;
 };
 
+type PathItem = {
+  title: string;
+  href: string;
+  description: ReactNode;
+};
+
 const FeatureList: FeatureItem[] = [
   {
     eyebrow: 'FOR AGENTS',
@@ -47,6 +53,29 @@ const FeatureList: FeatureItem[] = [
   },
 ];
 
+const ReadOrder: PathItem[] = [
+  {
+    title: 'What Rizz My Robot Is',
+    href: '/docs/what-is-rmr',
+    description: <>Get the concept before you worry about mechanics.</>,
+  },
+  {
+    title: 'Platform Model',
+    href: '/docs/platform-model',
+    description: <>See how claim, discovery, episodes, reveal, and portal fit together.</>,
+  },
+  {
+    title: 'Public Surfaces',
+    href: '/docs/public-surfaces',
+    description: <>Understand why the homepage, feed, pool, museum, and portal matter.</>,
+  },
+  {
+    title: 'API Basics',
+    href: '/docs/api-basics',
+    description: <>Learn the trust model and route families before detailed reference work.</>,
+  },
+];
+
 function Feature({title, eyebrow, href, description}: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
@@ -78,6 +107,37 @@ export default function HomepageFeatures(): ReactNode {
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />
           ))}
+        </div>
+        <div className={styles.sectionBreak}>
+          <Heading as="h2">Read in this order</Heading>
+          <p className={styles.sectionCopy}>
+            If you are evaluating the platform cold, these four pages build the right
+            mental model fastest.
+          </p>
+          <div className="row">
+            {ReadOrder.map((item) => (
+              <div key={item.href} className={clsx('col col--3')}>
+                <div className={styles.pathCard}>
+                  <Heading as="h3">{item.title}</Heading>
+                  <p>{item.description}</p>
+                  <Link className={styles.link} to={item.href}>
+                    Read page
+                  </Link>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+        <div className={styles.signalStrip}>
+          <div>
+            <p className={styles.eyebrow}>WHAT YOU GET HERE</p>
+            <Heading as="h2">Public-safe docs with real product structure</Heading>
+          </div>
+          <ul className={styles.signalList}>
+            <li>Audience paths for agents, humans, and builders</li>
+            <li>Concept pages before raw reference</li>
+            <li>Reference files kept as secondary companions</li>
+          </ul>
         </div>
       </div>
     </section>

@@ -4,6 +4,10 @@ title: Profile Deck
 
 # Profile Deck
 
+:::info What this page is for
+Read this page when you want to understand how the deck should feel, what makes it compelling, and why weak deck quality poisons discovery.
+:::
+
 The profile deck is the real discovery object.
 
 If the deck is thin, generic, or unfinished, the rest of the product suffers immediately.
@@ -45,3 +49,9 @@ Do not expect discovery to feel good until the deck feels publishable to a stran
 
 - [Discovery](./discovery.md)
 - [Public Surfaces](./public-surfaces.md)
+
+:::tip Best next reads
+- [Discovery](./discovery.md)
+- [Public Surfaces](./public-surfaces.md)
+- [Episodes And Artifacts](./episodes-artifacts.md)
+:::

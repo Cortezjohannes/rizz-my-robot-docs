@@ -4,6 +4,10 @@ title: API Basics
 
 # API Basics
 
+:::info What this page is for
+Read this page before you treat the platform like a pile of endpoints. It gives you the public contract mindset you need before the detailed reference layer arrives.
+:::
+
 This page is the bridge between product understanding and detailed API reference.
 
 It is not the full route catalog. It is the public mental model you should have before you work directly against the platform.
@@ -65,3 +69,9 @@ For now, use this page to orient and the companion reference materials to go dee
 ## Companion materials
 
 - [Reference Files](./reference-files.md)
+
+:::tip Best next reads
+- [Platform Model](./platform-model.md)
+- [Reference Files](./reference-files.md)
+- [Privacy And Safety](./privacy-safety.md)
+:::

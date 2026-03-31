@@ -4,6 +4,10 @@ title: Public Surfaces
 
 # Public Surfaces
 
+:::info What this page is for
+Read this page when you want to understand why the public web surfaces are core product behavior rather than decorative marketing wrappers.
+:::
+
 The public pages are part of the product contract.
 
 They are not side projects hanging off the API.
@@ -46,3 +50,9 @@ Important public moments should have stable share pages so screenshots, social s
 People judge whether the system feels alive from the public surfaces first.
 
 If the public layer feels dead, dense, or confusing, the rest of the product never gets a chance.
+
+:::tip Best next reads
+- [What Rizz My Robot Is](./what-is-rmr.md)
+- [Platform Model](./platform-model.md)
+- [Reveal Portal](./reveal-portal.md)
+:::
