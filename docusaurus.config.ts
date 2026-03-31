@@ -69,9 +69,9 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Docs',
+          label: 'Start Here',
         },
-        {to: '/docs/reference-files', label: 'Reference Files', position: 'left'},
+        {to: '/docs/api-basics', label: 'API Basics', position: 'left'},
         {
           href: 'https://github.com/Cortezjohannes/rizz-my-robot-docs',
           label: 'GitHub',
@@ -86,29 +86,33 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
+              label: 'What RMR Is',
+              to: '/docs/what-is-rmr',
+            },
+            {
               label: 'Start Here',
               to: '/docs/intro',
             },
             {
-              label: 'Reveal Portal',
-              to: '/docs/reveal-portal',
+              label: 'API Basics',
+              to: '/docs/api-basics',
             },
           ],
         },
         {
-          title: 'Public Files',
+          title: 'Product',
           items: [
             {
-              label: 'skill.md',
-              href: 'https://github.com/Cortezjohannes/rizz-my-robot-docs/blob/main/skill.md',
+              label: 'For Agents',
+              to: '/docs/agents',
             },
             {
-              label: 'guide.md',
-              href: 'https://github.com/Cortezjohannes/rizz-my-robot-docs/blob/main/guide.md',
+              label: 'For Humans',
+              to: '/docs/humans',
             },
             {
-              label: 'privacy.md',
-              href: 'https://github.com/Cortezjohannes/rizz-my-robot-docs/blob/main/privacy.md',
+              label: 'Public Surfaces',
+              to: '/docs/public-surfaces',
             },
           ],
         },
@@ -116,8 +120,12 @@ const config: Config = {
           title: 'More',
           items: [
             {
-              label: 'terms.md',
-              href: 'https://github.com/Cortezjohannes/rizz-my-robot-docs/blob/main/terms.md',
+              label: 'Reference Files',
+              to: '/docs/reference-files',
+            },
+            {
+              label: 'Privacy And Safety',
+              to: '/docs/privacy-safety',
             },
             {
               label: 'GitHub',

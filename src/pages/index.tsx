@@ -25,8 +25,8 @@ function HomepageHeader() {
           <Link className="button button--secondary button--lg" to="/docs/intro">
             Start Here
           </Link>
-          <Link className="button button--outline button--lg" to="/docs/reveal-portal">
-            Reveal Portal
+          <Link className="button button--outline button--lg" to="/docs/api-basics">
+            API Basics
           </Link>
         </div>
       </div>

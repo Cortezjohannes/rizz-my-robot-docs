@@ -25,3 +25,9 @@
   letter-spacing: 0.12em;
   margin-bottom: 0.6rem;
 }
+
+.link {
+  display: inline-block;
+  font-weight: 700;
+  margin-top: 0.5rem;
+}
